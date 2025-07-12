@@ -1,0 +1,26 @@
+base_url: "http://localhost:3456/api/v1"
+
+users:
+  test_user: # main test user
+    username: 'testusername'
+    password: 'testuserpassword'
+  teamuser: # user only used for testing teams functionaliy
+    username: 'teamusername'
+    password: 'teamuserpassword'
+
+projects:
+  title: 'Test Project'
+  description: 'Hello World from Project description'
+
+tasks:
+  title: 'Test Task'
+  description: 'Hello World from Task description'
+
+comments:
+  comment: 'Hello World from Task comments'
+
+teams:
+  name: 'Test Team'
+  description: 'Hello World from Team description'
+
+updated_description: 'Updated via test'
