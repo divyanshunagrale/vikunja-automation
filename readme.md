@@ -5,14 +5,14 @@ It is designed to simulate real-world QA workflows like authentication, project/
 > **Note:** This project is intended as a demonstration of API automation practices and does not aim to provide complete test coverage of the Vikunja API.
 
 ---
-## ## Project Goals
+## Project Goals
 - Showcase professional QA automation skills
 - Test core Vikunja workflows: auth, project/task management, team sharing
 - Practice structuring scalable test suites  
 - Generate and serve **Allure Reports**
 
 ---
-## 📁 Folder Overview
+## Folder Overview
 
 - `FunctionalAutomation/Smoke/` – Smoke tests for basic health checks
 - `FunctionalAutomation/Sanity/` – Feature-level tests for auth, projects, tasks, and teams
@@ -63,7 +63,7 @@ runtest.bat # For Windows
 ```
 ----------
 
-## 💡 Highlights
+## Highlights
 -   `pytest-order`, `pytest-dependency` for deterministic test control
     
 -   `@allure.step`, `@allure.attach` for detailed reporting
@@ -75,14 +75,14 @@ runtest.bat # For Windows
 -   `config.example.yaml` provided for safe reuse
 ----------
 
-## 📢 Feedback & Contributions
+## Feedback & Contributions
 
 This project is for educational and portfolio purposes only.  
 Feel free to fork it, test it, or use it as a template!
 
 ----------
 
-## 📚 Resources
+## Resources
 
 -   [Vikunja API Docs](https://try.vikunja.io/api/v1/docs) (Public Instance, you can find your api docs under `/api/v1/docs` of your instance)
     
